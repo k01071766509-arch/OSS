@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>OSS 개발과 협업 정리</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>OSS 개발과 협업</h1>
+    <p>Git, GitHub, Notion 핵심 정리 웹페이지</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Git Branch</h2>
+      <ul>
+        <li>Main: 최종 배포 브랜치</li>
+        <li>Develop: 개발 내용 통합 브랜치</li>
+        <li>Feature: 새로운 기능 개발 브랜치</li>
+        <li>Release: 배포 전 테스트 브랜치</li>
+        <li>Hotfix: 배포 후 긴급 수정 브랜치</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Git 명령어</h2>
+      <ul>
+        <li>git branch: 브랜치 목록 확인</li>
+        <li>git checkout -b 이름: 브랜치 생성 + 이동</li>
+        <li>git merge: 브랜치 병합</li>
+        <li>git status: 현재 상태 확인</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>GitHub</h2>
+      <p>GitHub는 Git 기반의 원격 저장소 및 협업 플랫폼이다.</p>
+    </section>
+
+    <section>
+      <h2>Notion</h2>
+      <p>Notion은 문서 작성, 일정 관리, 데이터베이스, 협업을 지원하는 올인원 도구이다.</p>
+    </section>
+
+    <button onclick="showMessage()">핵심 암기 보기</button>
+    <p id="message"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
